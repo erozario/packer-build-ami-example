@@ -1,7 +1,7 @@
 Packer Build AMI Example
 ===========
 
-Installs and setup Zabbix-Agent 3.0 in Amazon Linux 2017
+Just an example of how to use packer with aws
 
 Installation
 ------------
@@ -11,7 +11,8 @@ Installation
 Requirements
 ------------
 
-  - packer (https://www.packer.io/intro/getting-started/install.html)
+  - Packer (https://www.packer.io/intro/getting-started/install.html)
+  - Ansible roles used in playbook.yml previously installed
 
 
 Example Packer Build
@@ -66,7 +67,8 @@ Example Playbook
         
 Execute
 ----------------
-
+ 
+    
     $ packer build template.json 
 
 License
