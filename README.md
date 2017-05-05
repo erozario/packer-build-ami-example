@@ -39,14 +39,6 @@ Example Template
             }
         }],
         "provisioners": [{
-            "type": "shell",
-            "inline": ["sleep 10"]
-        }, {
-            "type": "shell",
-            "inline": [
-                "sudo pip install ansible"
-            ]
-        }, {
             "type": "ansible",
             "playbook_file": "./playbook.yml"
         }, {
