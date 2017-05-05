@@ -15,7 +15,7 @@ Requirements
   - Ansible roles used in playbook.yml previously installed
 
 
-Example Packer Build
+Example Template
 --------------
     {
         "variables": {
